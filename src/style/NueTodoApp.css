@@ -1,0 +1,35 @@
+.inpuCrearTarea {
+  position: relative;
+  display: flex;
+  height: 7vh;
+  border-radius: 5px;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #94b49f;
+}
+
+.inpuCrearTarea input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 300px;
+}
+.inpuCrearTarea button {
+  margin: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 50px;
+  padding: 10px;
+}
+.compTodoEleme {
+  /* border: 3px solid #df7861; */
+}
+.tareaHecha {
+  /* border: 3px solid #cee5d0; */
+  /* background-color: #cee5d0; */
+  /* padding: 8px; */
+}

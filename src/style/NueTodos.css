@@ -1,0 +1,78 @@
+/* este la pagina completa */
+
+/* CSS DE EDITAR */
+.containerEditar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.containerEditar form {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+}
+.containerEditar input {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 5vh;
+  color: #fff;
+  font-size: 20px;
+  background-color: #94b49f;
+  text-align: center;
+}
+.containerEditar button {
+  right: 20px;
+  width: 100px;
+  max-width: 100%;
+  height: 45px;
+  background-color: #94b49f;
+  color: #f2ebe9;
+  border: none;
+  margin-left: 10px;
+  bottom: 2px;
+  top: 40px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 5px;
+}
+/* 8888888 */
+
+.compTodoEleme {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.compTodoEleme button {
+  width: 100px;
+  max-width: 100%;
+  height: 45px;
+  color: #f2ebe9;
+  border: none;
+  margin: 10px;
+  bottom: 2px;
+  top: 116px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 5px;
+}
+.editar {
+  background-color: #94b49f;
+}
+.eliminar {
+  background-color: #d9534f;
+}
+.returnCompunet {
+  width: 100%;
+  height: 10vh;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 3px solid #94b49f;
+}
