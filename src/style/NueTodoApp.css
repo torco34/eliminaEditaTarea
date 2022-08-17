@@ -1,12 +1,13 @@
 .inpuCrearTarea {
   position: relative;
   display: flex;
-  height: 7vh;
+  height: 10vh;
   border-radius: 5px;
-
   text-align: center;
   justify-content: center;
   align-items: center;
+  font-size: 2rem;
+  padding: 10px;
   background-color: #94b49f;
 }
 
@@ -15,21 +16,16 @@
   border-radius: 5px;
   border: none;
   outline: none;
-  width: 300px;
+  width: 400px;
+  font-weight: bold;
 }
 .inpuCrearTarea button {
   margin: 20px;
   border-radius: 5px;
   border: none;
   outline: none;
-  width: 50px;
-  padding: 10px;
-}
-.compTodoEleme {
-  /* border: 3px solid #df7861; */
-}
-.tareaHecha {
-  /* border: 3px solid #cee5d0; */
-  /* background-color: #cee5d0; */
-  /* padding: 8px; */
+  width: 60px;
+  height: 6vh;
+  text-align: center;
+  font-size: 2rem;
 }
